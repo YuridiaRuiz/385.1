@@ -1,4 +1,14 @@
 #Into to Python (Redux)
+#import math  #whole package
+from math import pi #specific 
+import sys
+import os
+#print(math.pi)
+print(pi)
+print('Python version: ', sys.version)
+print(os.getcwd())
+print(os.listdir())
+print(os.environ['HOME'])
 #Single Line comment
 '''
 MultiLine Comment / Document comment
@@ -44,10 +54,39 @@ print(name,"favorite number", fav_number)
 
 #Formatte string allow the direct injection of variables/values into a sting
 #Use f'' to declare a string type,then curly braces {} to surround the dynamic values (variables)
-print(f'{name} has a pet named {cat_name}')
+# print(f'{name} has a pet named {cat_name}')
 
 #input() function - accepts input fromthe user in the terminal.To call (invoke, run). a function you use parenthesis
-name = input("What is your name?")
-print(f'Hello {name}')
-age = input("how old are you?")
-print(f'Your age {age} years old!')
+# name = input("What is your name?")
+# print(f'Hello {name}')
+# age = input("how old are you?")
+# print(f'Your age {age} years old!')
+
+'''
+Comparision Operators
+>   GT
+>=  GTE
+<   LT
+<=  LTE
+==  eq
+!=  not eq
+'''
+
+'''
+Logical operator
+and - all conditionals must be true
+or  - al least 1 conditional must be true
+not - opposite must evaluate to true
+'''
+
+'''
+Aritmethical Operators
++   Addition
+-   Substraction
+*   Multiplication
+/   Division
+%   Modulus (remainder of division)
+**  Exponentiation
+'''
+
+print('Hello','somebody','today', sep="+", end='* \n')
